@@ -1,8 +1,108 @@
-html, body {
-  
+html,
+body {
+  /* background-color: rgb(1, 14, 61);
+
+  color: white; */
 }
 
 body {
   margin: 0;
-  
+  padding: 0;
+  height: 100%;
+}
+
+/* Shared ultility Styles */
+
+button:hover {
+  cursor: pointer;
+  background-color: 90%;
+}
+
+button {
+  background-color: blueviolet;
+  border: none;
+  padding: 5px;
+  height: 30px;
+  border-radius: 15px;
+
+  color: white;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.zoomcontainer {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+}
+
+/* Navigations */
+.navs {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  grid-row: 1 / 2; /* set the left column to span all rows */
+}
+
+.nav {
+  width: 160px;
+  height: 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+
+  color: white;
+
+  background-color: rgb(0, 120, 248);
+}
+
+.nav:hover {
+  cursor: pointer;
+}
+/* Main contents */
+.subjects {
+  border-left: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding: 30px;
+}
+
+.websites {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+/* Website */
+.website {
+  background-color: rgb(0, 120, 248);
+  width: 160px;
+  height: 40px;
+  color: white;
+
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+
+  margin: 10px;
+
+  font-size: 18px;
+
+  font-weight: 700;
+}
+
+.website a {
+  color: white;
+}
+
+.website:hover {
+  cursor: pointer;
+  background-color: 90%;
 }

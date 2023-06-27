@@ -1,7 +1,10 @@
-export default function Nav() {
+export default function Nav(props) {
+  function handleClick() {
+    props.onclick();
+  }
   return (
-    <main>
-      Nav
-    </main>
-  )
+    <div className="nav" onClick={handleClick}>
+      {props.name}
+    </div>
+  );
 }
