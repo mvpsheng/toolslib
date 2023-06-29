@@ -64,6 +64,16 @@ export default function App() {
       url: "https://www.amazon.com",
       type: "Software Development",
     },
+    {
+      name: "Upwork",
+      url: "https://www.amazon.com",
+      type: "Remote Jobs",
+    },
+    {
+      name: "Strrldev",
+      url: "https://strrl.dev/",
+      type: "Subsribe Blogs",
+    },
   ];
 
   const [selectedType, setSelectedType] = useState(null);
