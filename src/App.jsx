@@ -14,13 +14,18 @@ export default function App() {
   ];
 
   const websites = [
-    { name: "Google", url: "https://www.google.com", type: "Search Engine" },
-    { name: "Facebook", url: "https://www.facebook.com", type: "Social Media" },
-    { name: "GitHub", url: "https://github.com", type: "Development" },
-    { name: "Amazon", url: "https://www.amazon.com", type: "E-commerce" },
+    // { name: "Google", url: "https://www.google.com", type: "Search Engine" },
+    // { name: "Facebook", url: "https://www.facebook.com", type: "Social Media" },
+    // { name: "GitHub", url: "https://github.com", type: "Development" },
+    // { name: "Amazon", url: "https://www.amazon.com", type: "E-commerce" },
     {
       name: "We Work Remotely",
       url: "https://www.amazon.com",
+      type: "Remote Jobs",
+    },
+    {
+      name: "FreeLancer",
+      url: "https://www.freelancer.cn/",
       type: "Remote Jobs",
     },
     { name: "EchoJobs", url: "https://www.amazon.com", type: "Remote Jobs" },
@@ -32,7 +37,7 @@ export default function App() {
     {
       name: "Cambridge Dictionary",
       url: "https://www.amazon.com",
-      type: "Translation",
+      type: "Dictionary",
     },
     {
       name: "菜鸟教程",
@@ -65,6 +70,16 @@ export default function App() {
       type: "Software Development",
     },
     {
+      name: "resourcify.me",
+      url: "https://resourcify.me/guides/web-frontend-ultimate",
+      type: "Software Development",
+    },
+    {
+      name: "pdai",
+      url: "https://www.pdai.tech/md/project/project-x-overview.html",
+      type: "Software Development",
+    },
+    {
       name: "Upwork",
       url: "https://www.amazon.com",
       type: "Remote Jobs",
@@ -74,6 +89,72 @@ export default function App() {
       url: "https://strrl.dev/",
       type: "Subsribe Blogs",
     },
+    {
+      name: "Guoyu 郭宇",
+      url: "https://guoyu.mirror.xyz/",
+      type: "Subsribe Blogs",
+    },
+    {
+      name: "Cali 佐玩",
+      url: "https://cali.so/",
+      type: "Subsribe Blogs",
+    },
+    {
+      name: "Sky wind",
+      url: "https://skywind.me/blog/",
+      type: "Subsribe Blogs",
+    },
+    {
+      name: "Britannica",
+      url: "https://www.britannica.com/technology/computer",
+      type: "Dictionary",
+    },
+    {
+      name: "dunwu 顿悟",
+      url: "https://dunwu.github.io/blog/about/",
+      type: "Subsribe Blogs",
+    },
+    {
+      name: "peter-lynch",
+      url: "https://peter-lynch.netlify.app/pages/projects.html",
+      type: "Subsribe Blogs",
+    },
+    {
+      name: "pylon",
+      url: "https://0x400.com/",
+      type: "Subsribe Blogs",
+    },
+    {
+      name: "changkun",
+      url: "https://changkun.de/",
+      type: "Subsribe Blogs",
+    },
+    {
+      name: "MicroSoft TODO",
+      url: "https://to-do.live.com/tasks/myday",
+      type: "ToDo Apps",
+    },
+    {
+      name: "dev Challenges",
+      url: "https://devchallenges.io/",
+      type: "Communities",
+    },
+    {
+      name: "Frontend Mentor",
+      url: "https://www.frontendmentor.io/home",
+      type: "Communities",
+    },
+    {
+      name: "pdai Navigations",
+      url: "https://www.pdai.tech/md/resource/tools.html",
+      type: "Navigations",
+    },
+    {
+      name: "程序员 Navigations",
+      url: "https://www.pdai.tech/md/resource/tools.html",
+      type: "Navigations",
+    },
+    // http://cxy521.com/
   ];
 
   const [selectedType, setSelectedType] = useState(null);
