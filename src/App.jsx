@@ -31,7 +31,7 @@ export default function App() {
     { name: "EchoJobs", url: "https://www.amazon.com", type: "Remote Jobs" },
     {
       name: "IELTSLiz",
-      url: "https://www.amazon.com",
+      url: "https://ieltsliz.com/how-to-prepare-for-ielts-essential-steps/",
       type: "English Learning",
     },
     {
