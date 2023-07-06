@@ -50,6 +50,11 @@ export default function App() {
       type: "English Learning",
     },
     {
+      name: "IELTS Online Test Training",
+      url: "https://cdielts.gelielts.cn/register",
+      type: "English Learning",
+    },
+    {
       name: "Cambridge Dictionary",
       url: "https://www.amazon.com",
       type: "Dictionary",
