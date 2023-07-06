@@ -35,6 +35,21 @@ export default function App() {
       type: "English Learning",
     },
     {
+      name: "IELTS Speaking Training",
+      url: "https://www.bilibili.com/video/BV1Rz4y1q7QV?p=39&vd_source=f094d7c3380a67852396d8fc3e19bacb",
+      type: "English Learning",
+    },
+    {
+      name: "IELTS Listening Training",
+      url: "https://www.bilibili.com/video/BV1sM4y1Y7oM/?spm_id_from=333.999.0.0&vd_source=f094d7c3380a67852396d8fc3e19bacb",
+      type: "English Learning",
+    },
+    {
+      name: "IELTS Reading Training",
+      url: "https://www.bilibili.com/video/BV1Ko4y1E7Ew?p=24&vd_source=f094d7c3380a67852396d8fc3e19bacb",
+      type: "English Learning",
+    },
+    {
       name: "Cambridge Dictionary",
       url: "https://www.amazon.com",
       type: "Dictionary",
