@@ -29,31 +29,7 @@ export default function App() {
       type: "Remote Jobs",
     },
     { name: "EchoJobs", url: "https://www.amazon.com", type: "Remote Jobs" },
-    {
-      name: "IELTSLiz",
-      url: "https://ieltsliz.com/how-to-prepare-for-ielts-essential-steps/",
-      type: "English Learning",
-    },
-    {
-      name: "IELTS Speaking Training",
-      url: "https://www.bilibili.com/video/BV1Rz4y1q7QV?p=39&vd_source=f094d7c3380a67852396d8fc3e19bacb",
-      type: "English Learning",
-    },
-    {
-      name: "IELTS Listening Training",
-      url: "https://www.bilibili.com/video/BV1sM4y1Y7oM/?spm_id_from=333.999.0.0&vd_source=f094d7c3380a67852396d8fc3e19bacb",
-      type: "English Learning",
-    },
-    {
-      name: "IELTS Reading Training",
-      url: "https://www.bilibili.com/video/BV1Ko4y1E7Ew?p=24&vd_source=f094d7c3380a67852396d8fc3e19bacb",
-      type: "English Learning",
-    },
-    {
-      name: "IELTS Online Test Training",
-      url: "https://cdielts.gelielts.cn/register",
-      type: "English Learning",
-    },
+
     {
       name: "Cambridge Dictionary",
       url: "https://www.amazon.com",
@@ -174,6 +150,43 @@ export default function App() {
       url: "https://www.pdai.tech/md/resource/tools.html",
       type: "Navigations",
     },
+    {
+      name: "IP Address Tracker",
+      url: "https://ipaddresstrackergxs.netlify.app",
+      type: "IMadeThat",
+    },
+    {
+      name: "Sign Up Forms",
+      url: "https://signupformgxs.netlify.app/",
+      type: "IMadeThat",
+    },
+    {
+      name: "Authentication App",
+      url: "https://authenticationappgxs.netlify.app/",
+      type: "IMadeThat",
+    },
+    {
+      name: "Shopping List",
+      url: "https://shoppingifygxs.netlify.app",
+      type: "IMadeThat",
+    },
+    {
+      name: "Age Calculator",
+      url: "https://age-calculator-gxs.netlify.app",
+      type: "IMadeThat",
+    },
+    {
+      name: "News Page",
+      url: "https://newshomepagegxs.netlify.app/",
+      type: "IMadeThat",
+    },
+    {
+      name: "Tic Tac Toe",
+      url: "https://tictactoegxs.netlify.app",
+      type: "IMadeThat",
+    },
+    // https://tictactoegxs.netlify.app
+    // https://age-calculator-gxs.netlify.app
     // http://cxy521.com/
   ];
 
